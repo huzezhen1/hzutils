@@ -1,8 +1,9 @@
 {
-  "name": "zutils",
+  "name": "hzutils",
   "version": "1.0.0",
   "description": "前端业务代码工具库",
-  "main": "min/zutils.min.js",
+  "main": "min/hzutils.min.js",
+  "private": false,
   "directories": {
     "test": "test"
   },
@@ -27,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huzezhen1/zutils.git"
+    "url": "git+https://github.com/huzezhen1/hzutils.git"
   }
 }
