@@ -1,5 +1,5 @@
 const getOS = require('./device/getOS')
 
-modele.exports = {
+module.exports = {
   getOS
 }

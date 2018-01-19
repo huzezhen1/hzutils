@@ -16,7 +16,7 @@ const config = {
   module: {
     rules: [{
       test: /\.js$/,
-      loader: 'babel-loader'
+      use: 'babel-loader'
     }]
   },
   plugins: [
