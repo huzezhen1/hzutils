@@ -1,3 +1,4 @@
 node_modules/
 test/reporters/
 npm-debug.log
+coverage/

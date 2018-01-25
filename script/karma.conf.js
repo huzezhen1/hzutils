@@ -65,13 +65,14 @@ module.exports = function(config) {
     },
 
     coverageReporter: {
-      type: 'html',
-      dir: './test/reporters'
+      type: 'lcov',
+      dir: 'coverage/',
+      subdir: '.'
     },
 
     webpack: wepackConfig,
 
-    webpackMiddleware:{
+    webpackMiddleware: {
       noInfo: false
     },
 
@@ -94,7 +95,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
